@@ -116,7 +116,8 @@ if(BOARD STREQUAL "pico-w")
   # libs for pico-w
   set(TARGET_LIBS
   ${TARGET_LIBS}
-  pico_cyw43_arch_none)
+  pico_cyw43_arch_none
+  pico_cyw43_arch_lwip_threadsafe_background)
 endif()
 
 include(${CMAKE_SOURCE_DIR}/tools/kaluma.cmake)

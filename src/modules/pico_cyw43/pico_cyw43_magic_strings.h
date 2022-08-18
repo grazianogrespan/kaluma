@@ -26,5 +26,9 @@
 #define MSTR_PICO_CYW43_CLOSE "close"
 #define MSTR_PICO_CYW43_GETGPIO "getGpio"
 #define MSTR_PICO_CYW43_PUTGPIO "putGpio"
+//#define MSTR_PICO_CYW43_SCAN "scan"
+#define MSTR_PICO_CYW43_CONNECT "connect"
+#define MSTR_PICO_CYW43_DISCONNECT "disconnect"
+#define MSTR_PICO_CYW43_LINK_STATUS "isConnected"
 
 #endif /* __PICO_CYW43_MAGIC_STRINGS_H */
